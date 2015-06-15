@@ -1,0 +1,27 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5em;
+}
+
+pre {
+    background: black;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    margin: 0;
+    min-height: 20em;
+    padding: 1em;
+}
+
+.fa {
+    font-size: 150% !important;
+    line-height: 1.2em;
+}
+
+card img {
+    transform: scale(.5);
+}

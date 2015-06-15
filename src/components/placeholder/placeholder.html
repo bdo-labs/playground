@@ -1,0 +1,9 @@
+<div layout layout-wrap layout-align="space-around">
+  <md-card ng-repeat="image in placeholder.images" style="max-width:50em;">
+    <img class="md-card-image" ng-src="{{image.media.m}}">
+    <md-card-content>
+      <h1 class="md-title">{{image.title}}</h1>
+    </md-card-content>
+  </md-card>
+</div>
+
